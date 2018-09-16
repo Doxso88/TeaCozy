@@ -1,0 +1,43 @@
+body {
+	background-color: black;
+	font-family: Helvetica;
+	font-size: 22px;
+	color: seashell;
+	opacity: 0.9;
+	text-align: center;
+}
+
+header {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	z-index: 5;
+	padding-right: 10px;
+	background-color: black;
+	border: 1px solid white;
+}
+
+nav span {
+ 	display: inline-block;
+ 	padding: 05px 10px;
+ 	color: white;
+ }
+
+ nav {
+ 	padding-right: 0px;
+ }
+
+ .logo {
+ 	display: flex;
+ 	align-items: center;
+ 	padding-left: 10px;
+ 	
+ }
+
+ .logo img {
+ 	display: flex;
+ 	justify-content: flex-start;
+ 	align-items: flex-start;
+ 	width: 150px;
+ 	margin: 10px;
+ }
