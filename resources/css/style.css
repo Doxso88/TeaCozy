@@ -8,36 +8,117 @@ body {
 }
 
 header {
-	display: flex;
-	justify-content: flex-end;
-	align-items: center;
-	z-index: 5;
-	padding-right: 10px;
-	background-color: black;
-	border: 1px solid white;
+ width: 100%;
+ position: fixed;
+ z-index: 1;
+ height: 69px;
+ background-color: black;  
+ border-bottom: 1px solid seashell; 
+ align-items: center;
+}
+
+nav {
+  text-align: right;
+  flex-grow: 1;
 }
 
 nav span {
- 	display: inline-block;
- 	padding: 05px 10px;
- 	color: white;
- }
+  display: inline-block;
+  padding: 20px 10px; 
+}
 
- nav {
- 	padding-right: 0px;
- }
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
 
- .logo {
+#logo {
  	display: flex;
- 	align-items: center;
+ 	justify-content: flex-start;
+  align-items: center;
  	padding-left: 10px;
  	
  }
 
- .logo img {
+#logo img {
  	display: flex;
  	justify-content: flex-start;
- 	align-items: flex-start;
  	width: 150px;
  	margin: 10px;
  }
+
+#locations {
+	background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  height: 500px;
+  width: 1200px
+  padding-top: 70px;
+}
+
+.Mission {
+	background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  padding-top: 100px;
+  width: 1200px;
+  height: 700px;
+  margin: auto;
+}
+
+.missions {
+  border: 1px solid black;
+  background-color: black;
+  text-align: center;
+  margin: 200px auto;
+}
+
+.monthTea img {
+  padding: 5px;
+  height: 200px;
+  margin: 10px;
+  display: block;
+}
+
+#select {
+  height: 700px;
+  width: 1000px;
+  margin: auto;
+  padding-top: 70px;
+}
+
+.location {
+  opacity: 1.0;
+  padding: 10px;
+  margin: 5px 20px;
+  background-color: black;
+  flex-basis: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid black;
+  padding-right: 1px;
+}
+
+#locations .flex-container {
+    margin: auto;
+    width: 1100px;
+}
+
+.flex-container .locations {
+    padding-top: 5px;
+}
+
+h3 {
+  margin: auto;
+  padding: 10px;
+}
+
+#contact {
+  height: 200px;
+}
+
+footer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  text-align: left;
+  padding-left: 20px;
+}
